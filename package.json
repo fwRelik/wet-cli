@@ -1,0 +1,35 @@
+{
+	"name": "wet-cli",
+	"version": "1.0.0",
+	"private": false,
+	"description": "CLI for getting weather",
+	"main": "weather.js",
+	"bin": {
+		"weather": "weather.js"
+	},
+	"type": "module",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fwRelik/wet-cli.git"
+	},
+	"keywords": [
+		"cli",
+		"weather"
+	],
+	"author": "fwRelik",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fwRelik/wet-cli/issues",
+		"email": "relik.fw@gmail.com"
+	},
+	"homepage": "https://github.com/fwRelik/wet-cli#readme",
+	"dependencies": {
+		"axios": "^0.21.4",
+		"chalk": "^5.0.1",
+		"dedent-js": "^1.0.1"
+	}
+}
